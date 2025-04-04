@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar Atividade</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Nova Atividade</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cadastrar.html">Cadastrar</a>
+      <a href="gerenciar.html">Gerenciar</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Cadastro de Atividade</h2>
+    <form id="form-cadastro">
+      <input type="text" id="titulo" placeholder="Título" required />
+      <input type="date" id="data" required />
+      <input type="text" id="local" placeholder="Local" required />
+      <select id="tipo">
+        <option value="esporte">Esporte</option>
+        <option value="cultura">Cultura</option>
+        <option value="educacao">Educação</option>
+      </select>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+
+  <script src="js/cadastrar.js"></script>
+</body>
+</html>
