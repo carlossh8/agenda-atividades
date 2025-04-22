@@ -2,8 +2,8 @@
    Variáveis de Cores e Layout
    =========================== */
    :root {
-    --primary-color: #1E90FF;
-    --secondary-color: #187bcd;
+    --primary-color: #28A745; /* Verde principal para títulos e bordas */
+    --secondary-color: #218838; /* Verde mais escuro para variações */
     --accent-color: #ff6b6b;
     --background-light: #f4f6f8;
     --text-dark: #1a1a1a;
@@ -11,7 +11,7 @@
     --shadow-dark: rgba(0, 0, 0, 0.15);
     --spacing-unit: 24px;
     --border-radius: 16px;
-    --gradient: linear-gradient(135deg, #1E90FF, #6b48ff);
+    --gradient: linear-gradient(135deg, #28A745, #17A589); /* Novo degradê verde */
   }
   
   /* ===========================
